@@ -21,7 +21,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 #banner {
   position: relative;
   min-height: 40px;
-  background: #9c9;
+  background: #30a9cc;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
@@ -32,7 +32,9 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
     position: absolute;
     top: 0;
     left: 0;
-    width: 192px;
+    width: 53px;
+    padding-left: 5px;
+    padding-top: 2px;
   }
 }
 
@@ -62,7 +64,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
   //
   #side {
     padding: 1em 2em;
-    background: #141;
+    background: #27598d;
 
     form, div {
       display: inline;
@@ -112,5 +114,45 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
   #banner .title {
     display: none;
+  }
+}
+
+.depot_form {
+  fieldset {
+    background: #efe;
+
+    legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+
+    div {
+      margin-bottom: 0.3em;
+    }
+  }
+
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+
+    select, textarea, input {
+      margin-left: 0.5em;
+    }
+
+    .submit {
+      margin-left: 4em;
+    }
+
+    br {
+      display: none;
+    }
   }
 }
